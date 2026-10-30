@@ -1,2 +1,22 @@
-# Uday
-Simple calculater in python 
+print("***Mathematcal calculatrer***")
+print("1.Addtion")
+print("2.Substraction")
+print("3. Multiplication")
+print("4.Division")
+a=float(input("Enter a number= "))
+b=float(input("Enter another number= "))
+choice=int(input("Enter a choice= "))
+if choice==1:
+    print("Addition=",a+b)
+elif choice==2:
+    print("Substraction=",a-b)
+elif choice==3:
+    print("Multiplication=",a*b)
+elif choice==4:
+    if b!=0:
+               print("Division=",a/b)
+    else:
+        print(" cannot divisible by zero")            
+else:
+    print("invalid data")
+
